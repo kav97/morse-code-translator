@@ -3,7 +3,7 @@ import {morseCodeMap} from "./data/morse-object.js";
 // query selectors
 const text = document.querySelector("#text");
 const translateButton = document.querySelector("#button");
-const morseDisplayed = document.querySelector(".translator__presented");
+const morseDisplayed = document.querySelector(".translator-presented");
 
 // functions needed to carry out the whole test
 // string enetered needs to be lowercase and split into an array of its letters
