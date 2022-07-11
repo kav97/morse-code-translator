@@ -2,4 +2,41 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 2rem 0 2rem;
+  background-image: linear-gradient(#4568dc, #b06ab3);
+  font-family: Arial, Helvetica, sans-serif;
+}
+body h1 {
+  color: white;
+  text-align: center;
+  margin: 0 0 3rem 0;
+  font-size: 2.5rem;
+}
+body .translator-field {
+  margin: 0 0 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+body .translator-field .text__field {
+  padding: 0.25rem;
+  height: 1.75rem;
+  width: 15rem;
+}
+body .translator-field .translator__button {
+  padding: 0.25rem;
+  height: 1.75rem;
+  width: 5rem;
+  background-color: grey;
+  color: white;
+  font-weight: 600;
+}
+body .translator-presented {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
